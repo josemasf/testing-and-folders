@@ -1,5 +1,5 @@
 {
-  "name": "mocking-and-testing",
+  "name": "testing-and-folders",
   "private": true,
   "scripts": {
     "build": "slidev build",
