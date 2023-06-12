@@ -28,7 +28,7 @@ fonts:
   mono: 'Fira Code'
 ---
 
-# Mocking and testing
+# Testing and folder
 
 <div class="text-slate-200">
 Creación de entornos para desarrollo y testing sin dependecias externas
@@ -53,7 +53,7 @@ Creación de entornos para desarrollo y testing sin dependecias externas
 
 
 
-<div class="grid grid-cols-3 gap-4 mt-2 ">
+<div class="grid grid-cols-4 gap-4 mt-2 ">
   <div>
     <div class="bg-slate-700">
         <div class="max-w-sm rounded overflow-hidden shadow-lg border-white">
@@ -83,12 +83,25 @@ Creación de entornos para desarrollo y testing sin dependecias externas
   <div>
     <div class="bg-slate-700">
       <div class="max-w-sm rounded overflow-hidden shadow-lg border-white">
-        <img class="w-full " src="/logos/logo-inno.png" alt="OFG">
+        <img class="w-full " src="/logos/logo-inno.png" alt="Innovation strategies">
         <div class="px-6 py-4 text-center">
           <div class="font-bold text-xl mb-2">Innovation strategies</div>    
         </div>
         <div class="px-6 pt-4 text-center">
-          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">2018 - ?</span>    
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">2018 - 2023</span>    
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="bg-slate-700">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg border-white">
+        <img class="w-full bg-white " src="/logos/logo-aida.png" alt="aida">
+        <div class="px-6 py-4 text-center">
+          <div class="font-bold text-xl mb-2">Aida</div>    
+        </div>
+        <div class="px-6 pt-4 text-center">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">2023 - ?</span>    
         </div>
       </div>
     </div>
@@ -106,6 +119,35 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+---
+layout: cover
+class: text-center
+background: /imgs/folder.avif
+---
+
+# Estructura de proyectos
+
+---
+
+## Atomic Design and Containers
+
+<div class="grid place-content-center">
+ <img src="/imgs/atomic-design.jpg" />
+</div>
+
+---
+
+## Responsabilidades
+
+```
+components/
+		atoms/
+		molecules/
+		organisms/
+containers/ → Implementación del caso de uso y responsable de acceso a datos.
+views/ → Implementación de uno o varios contenedores
+```
 
 ---
 layout: image-right
@@ -573,13 +615,6 @@ const handlers = [
 
  </div>
 </div>
-
----
-layout: center
-class: text-center
----
-
-## Veamos ejemplo de uso
 
 ---
 layout: cover
