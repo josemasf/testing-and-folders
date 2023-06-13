@@ -28,7 +28,7 @@ fonts:
   mono: 'Fira Code'
 ---
 
-# Testing and folder
+# Testing and folders
 
 <div class="text-slate-200">
 Creación de entornos para desarrollo y testing sin dependecias externas
